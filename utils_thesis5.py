@@ -18,9 +18,9 @@ XYList = List[XY]
 def get_model_parameters(model: VotingClassifier) -> LogRegParams:
     """Returns the paramters of a sklearn LogisticRegression model."""
     if model.flatten_transform:
-        params = (model.coef_, model.intercept_)
+        params = [model.coef_, model.intercept_]
     else:
-        params = (model.coef_,)
+        params = [model.coef_,]
     return params
 
 
