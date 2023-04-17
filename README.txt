@@ -4,4 +4,4 @@
 example:
 us the following command: "python server.py 5002" and "python client_thesis1.py 5002".
 
-4. all the clinets are similar with same voting classifier and executed in the same manner with only difference in the data distribution in respective "utils" file. 
+4. all the clinets are similar with same voting classifier and executed in the same manner with only difference in the data distribution in respective "utils" files. 
