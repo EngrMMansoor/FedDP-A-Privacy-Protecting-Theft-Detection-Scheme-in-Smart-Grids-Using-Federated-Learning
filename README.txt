@@ -1,9 +1,18 @@
-1. create the environment for these virtual clients and server
-2. install the necessary libraries. This project is executed using the library named "flwr" (flower federated learning).
-3. server and clients are executed in the cmd/terminal seperately, by specifyin the address on which the connection is to be established. 
-example:
-us the following command: "python server.py 5002" and "python client_thesis1.py 5002".
+1. Install the "sklearn" library for the implementing the Machine Learning model. 
 
-4. all the clinets are similar with same model (i.e. voting classifier) and executed in the same manner with only difference in the data distribution in respective "utils" files. 
+2. For federated learning, this project implements the library named "flwr", that is the open source federated learning framework. https://flower.dev/
 
-5. This work is part of the MS thesis and published work can be found at https://www.mdpi.com/1996-1073/15/17/6241
+2. Create the environment for these virtual clients and server.
+        This project executes 'server' and 'clients' in the cmd/terminal seperately, by specifying the address of local machine on which the connection is         to be established. 
+    
+        example: (without qutations)
+        "python server.py 5002" 
+        "python client1.py 5002"
+
+3. All the clinets are similar with respect to the Machine Learning model (i.e. voting classifier) and executed in the same manner with only difference in    the data distribution in respective "utils" files. 
+
+4. Dataset used in this project can be found at https://u.pcloud.link/publink/show?code=kZ9MqqVZQyUilfm4RVXWfn4o6haMm4OfLQtV
+
+5. Publication of this project can be found at https://www.mdpi.com/1996-1073/15/17/6241
+
+
