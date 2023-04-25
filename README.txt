@@ -3,7 +3,7 @@
 2. For federated learning, this project implements the library named "flwr", that is the open source federated learning framework. https://flower.dev/
 
 2. Create the environment for these virtual clients and server.
-        This project executes 'server' and 'clients' in the cmd/terminal seperately, by specifying the address of local machine on which the connection is         to be established. 
+        This project executes 'server' and 'clients' in the cmd/terminal seperately, by specifying the address of local machine on which the connection is to be established. 
     
         example: (without qutations)
         "python server.py 5002" 
